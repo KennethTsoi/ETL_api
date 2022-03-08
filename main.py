@@ -5,7 +5,7 @@ from flask_httpauth import HTTPBasicAuth
 from werkzeug.security import generate_password_hash, check_password_hash
 
 from raw_data import ORDERS_JSON
-from data import Test_JSON
+from raw_data import Test_JSON
 
 FORMAT = "%Y%m%d_%H:%M:%S"
 
